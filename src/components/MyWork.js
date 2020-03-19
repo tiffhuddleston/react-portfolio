@@ -40,6 +40,42 @@ function MyWork() {
           </Carousel.Item>
           <Carousel.Item>
             <Card style={{ width: '35rem' }}>
+              <Card.Img variant="top" src="../images/GroupLoop1.png" />
+              <Card.Body>
+                <Card.Title>GroupLoop</Card.Title>
+                <Card.Text>
+                  Yearbook-type app to keep track of circles of acquaintances
+                  across social media platforms. Deployed React app using hooks,
+                  React-Bootstrap, and a RESTful API built with Python, Django,
+                  and PostgreSQL. Full CRUD functionality.
+                </Card.Text>
+                <div className="d-flex flex-column">
+                  <ButtonGroup size="lg">
+                    <Button
+                      href="https://github.com/tiffhuddleston/grouploop_frontend"
+                      target="_blank"
+                    >
+                      Frontend Code
+                    </Button>
+                    <Button
+                      href="https://github.com/tiffhuddleston/grouploop-backend"
+                      target="_blank"
+                    >
+                      Backend Code
+                    </Button>
+                    <Button
+                      href="https://grouploop-fe.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Deployed App
+                    </Button>
+                  </ButtonGroup>
+                </div>
+              </Card.Body>
+            </Card>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Card style={{ width: '35rem' }}>
               <Card.Img variant="top" src="../images/GatherUp.png" />
               <Card.Body>
                 <Card.Title>GatherUp</Card.Title>
