@@ -1,17 +1,21 @@
 import React from 'react';
 import { Carousel, Card, Button, ButtonGroup } from 'react-bootstrap';
+import rickAndMorty from '../images/RickandMorty.png';
+import gatherUp from '../images/GatherUp.png';
+import nerdTrivia from '../images/nerd-trivia.png';
+import groupLoop from '../images/GroupLoop1.png';
 
 function MyWork() {
   return (
     <>
       <section id="mywork">
-        <header classname="work">
+        <header className="work">
           <h1>My Work</h1>
         </header>
         <Carousel className="carousel">
           <Carousel.Item>
             <Card style={{ width: '35rem' }}>
-              <Card.Img variant="top" src="../images/RickandMorty.png" />
+              <Card.Img variant="top" src={rickAndMorty} />
               <Card.Body>
                 <Card.Title>Rick and Morty Search</Card.Title>
                 <Card.Text>
@@ -40,14 +44,16 @@ function MyWork() {
           </Carousel.Item>
           <Carousel.Item>
             <Card style={{ width: '35rem' }}>
-              <Card.Img variant="top" src="../images/GroupLoop1.png" />
+              <Card.Img variant="top" src={groupLoop} />
               <Card.Body>
                 <Card.Title>GroupLoop</Card.Title>
                 <Card.Text>
                   Yearbook-type app to keep track of circles of acquaintances
-                  across social media platforms. Deployed React app using hooks,
-                  React-Bootstrap, and a RESTful API built with Python, Django,
-                  and PostgreSQL. Full CRUD functionality.
+                  across social media platforms.
+                  <br />
+                  Deployed React app using hooks, React-Bootstrap, and a RESTful
+                  API built with Python, Django, and PostgreSQL. Full CRUD
+                  functionality.
                 </Card.Text>
                 <div className="d-flex flex-column">
                   <ButtonGroup size="lg">
@@ -76,7 +82,7 @@ function MyWork() {
           </Carousel.Item>
           <Carousel.Item>
             <Card style={{ width: '35rem' }}>
-              <Card.Img variant="top" src="../images/GatherUp.png" />
+              <Card.Img variant="top" src={gatherUp} />
               <Card.Body>
                 <Card.Title>GatherUp</Card.Title>
                 <Card.Text>
@@ -110,7 +116,7 @@ function MyWork() {
           </Carousel.Item>
           <Carousel.Item>
             <Card style={{ width: '35rem' }}>
-              <Card.Img variant="top" src="../images/nerd-trivia.png" />
+              <Card.Img variant="top" src={nerdTrivia} />
               <Card.Body>
                 <Card.Title>Nerd Trivia</Card.Title>
                 <Card.Text>
