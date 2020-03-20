@@ -69,7 +69,19 @@ section {
   display: flex;
   padding: 70px 0 0 20px;
   text-align: left;
-  justify-content: top;
+  justify-content: left;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-column-gap: 50px;
+}
+
+svg {
+  padding: 2px;
+  text-align: center;
 }
 
 .carousel {
@@ -87,6 +99,7 @@ section {
 
 .work {
   background-color: var(--black);
+  color: white;
   height: 70px;
   position: fixed;
   width: 100%;
@@ -99,7 +112,7 @@ section {
   margin: auto;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   button + button,
   input + button {
     margin-left: 1rem;
@@ -122,4 +135,4 @@ section {
   .gallery {
     column-count: 4;
   }
-}
+} */

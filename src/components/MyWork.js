@@ -48,12 +48,8 @@ function MyWork() {
               <Card.Body>
                 <Card.Title>GroupLoop</Card.Title>
                 <Card.Text>
-                  Yearbook-type app to keep track of circles of acquaintances
-                  across social media platforms.
-                  <br />
                   Deployed React app using hooks, React-Bootstrap, and a RESTful
-                  API built with Python, Django, and PostgreSQL. Full CRUD
-                  functionality.
+                  API built with Python, Django, and PostgreSQL.
                 </Card.Text>
                 <div className="d-flex flex-column">
                   <ButtonGroup size="lg">
