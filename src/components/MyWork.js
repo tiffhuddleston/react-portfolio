@@ -14,16 +14,18 @@ function MyWork() {
         </header>
         <Carousel className="carousel">
           <Carousel.Item>
-            <Card style={{ width: '35rem' }}>
-              <Card.Img variant="top" src={rickAndMorty} />
+            <Card>
+              <Card.Img variant="top" className="img" src={rickAndMorty} />
               <Card.Body>
-                <Card.Title>Rick and Morty Search</Card.Title>
+                <Card.Title className="card-title">
+                  Rick and Morty Search
+                </Card.Title>
                 <Card.Text>
                   Deployed React app using hooks, React-Bootstrap, and a RESTful
                   API.
                 </Card.Text>
                 <div className="d-flex flex-column">
-                  <ButtonGroup size="lg">
+                  <ButtonGroup className="button-group" size="lg">
                     <Button
                       href="https://github.com/tiffhuddleston/angry-anteater"
                       target="_blank"
@@ -43,7 +45,7 @@ function MyWork() {
             </Card>
           </Carousel.Item>
           <Carousel.Item>
-            <Card style={{ width: '35rem' }}>
+            <Card>
               <Card.Img variant="top" src={groupLoop} />
               <Card.Body>
                 <Card.Title>GroupLoop</Card.Title>
@@ -77,7 +79,7 @@ function MyWork() {
             </Card>
           </Carousel.Item>
           <Carousel.Item>
-            <Card style={{ width: '35rem' }}>
+            <Card>
               <Card.Img variant="top" src={gatherUp} />
               <Card.Body>
                 <Card.Title>GatherUp</Card.Title>
@@ -111,7 +113,7 @@ function MyWork() {
             </Card>
           </Carousel.Item>
           <Carousel.Item>
-            <Card style={{ width: '35rem' }}>
+            <Card>
               <Card.Img variant="top" src={nerdTrivia} />
               <Card.Body>
                 <Card.Title>Nerd Trivia</Card.Title>

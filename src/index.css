@@ -6,6 +6,7 @@
   --white: #fff;
   --black: #020202;
 }
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -16,10 +17,11 @@ html {
   z-index: 100;
   height: 70px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   display: flex;
-  align-content: space-between;
-  justify-content: flex-start;
+  align-content: space-around;
+  flex-direction: row;
+  /* justify-content: flex-start; */
 }
 
 .topic {
@@ -85,34 +87,31 @@ svg {
 }
 
 .carousel {
-  position: relative;
-  width: 800px;
+  width: auto;
+  height: auto;
   margin: 0 auto;
   border-radius: 10px;
   padding: 4rem;
   color: black;
-}
-
-.card {
-  width: 800px;
+  display: grid;
+  align-self: flex-end;
 }
 
 .work {
   background-color: var(--black);
   color: white;
-  height: 70px;
-  position: fixed;
-  width: 100%;
+  height: 60px;
   display: flex;
   align-content: space-between;
-  justify-content: flex-start;
 }
 
-.description {
+/* .description,
+.title {
   margin: auto;
-}
+  width: 80vw;
+} */
 
-/* @media (min-width: 600px) {
+@media (min-width: 600px) {
   button + button,
   input + button {
     margin-left: 1rem;
@@ -129,10 +128,29 @@ svg {
   .gallery {
     column-count: 3;
   }
+  .carousel {
+    width: 400px;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1400px) {
   .gallery {
     column-count: 4;
   }
-} */
+}
+
+@media (max-width: 800px) {
+  .carousel {
+    width: 100vw;
+    height: auto;
+    font-size: 10px;
+  }
+  .img {
+    width: 250px;
+    height: auto;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+}
