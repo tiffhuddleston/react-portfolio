@@ -5,7 +5,9 @@ function About() {
   return (
     <section id="about">
       <div>
-        <h1>About</h1>
+        <header>
+          <h1>About</h1>
+        </header>
         <Jumbotron className="description">
           <h3>
             Software developer with 10+ years of hospitality and business

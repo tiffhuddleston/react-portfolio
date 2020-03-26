@@ -7,30 +7,49 @@
   --black: #020202;
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
 html {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   scroll-behavior: smooth;
+}
+
+header {
+  padding: 20px 0 0 20px;
+}
+
+.carousel {
+  padding: 20px;
+}
+
+@media (min-width: 1000px) {
+  img {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+  }
 }
 
 .nav-bar {
   background-color: var(--black);
   z-index: 100;
-  height: 70px;
   position: fixed;
   width: 100vw;
   display: flex;
   align-content: space-around;
   flex-direction: row;
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
 }
 
-.topic {
+/* .topic {
   font-size: 30px;
   display: inline-block;
   margin: 0 20px;
   color: var(--white);
   text-decoration: none;
-}
+} */
 
 a {
   color: var(--white);
@@ -62,71 +81,84 @@ section {
   background-color: var(--black);
   color: var(--white);
   display: flex;
-  padding: 70px 0 0 20px;
+  padding: 70px 0;
   align-self: flex-start;
+  flex-direction: column;
 }
 
 #about,
 #skills {
   display: flex;
-  padding: 70px 0 0 20px;
+  margin: 60px 0;
+  padding: 70px 0;
   text-align: left;
   justify-content: left;
 }
 
-.skills-container {
+/* .skills-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
   grid-column-gap: 50px;
-}
+} */
 
 svg {
-  padding: 2px;
+  padding: 5px;
+  margin: 5px;
   text-align: center;
 }
 
-.carousel {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 10px;
-  padding: 4rem;
-  color: black;
-  display: grid;
-  align-self: flex-end;
-}
-
-.work {
-  background-color: var(--black);
-  color: white;
-  height: 60px;
+/* .card {
+  width: 55vw;
+  height: 35vh;
   display: flex;
-  align-content: space-between;
-}
-
-/* .description,
-.title {
-  margin: auto;
-  width: 80vw;
+  flex-grow: 1;
+  .crop {
+    height: 20px;
+    width: 30px;
+    overflow: hidden;
+  }
+  .crop img {
+    height: auto;
+    width: 30px;
+  }
 } */
 
-@media (min-width: 600px) {
+/* .crop {
+  height: 20px;
+  width: 30px;
+  overflow: hidden;
+}
+.crop img {
+  height: auto;
+  width: 30px;
+} */
+
+/* @media (min-width: 600px) {
   button + button,
   input + button {
     margin-left: 1rem;
   }
   .gallery {
-    column-count: 2;
+    column-count: 1;
   }
   .head {
     font-size: 1rem;
+  }
+  .crop {
+    height: 20px;
+    width: 30px;
+    overflow: hidden;
+  }
+  .crop img {
+    height: auto;
+    width: 30px;
   }
 }
 
 @media (min-width: 1000px) {
   .gallery {
-    column-count: 3;
+    column-count: 2;
   }
   .carousel {
     width: 400px;
@@ -136,24 +168,45 @@ svg {
 
 @media (min-width: 1400px) {
   .gallery {
-    column-count: 4;
+    column-count: 2;
   }
 }
 
 @media (max-width: 800px) {
-  .carousel {
-    width: 100vw;
-    height: auto;
-    font-size: 10px;
-  }
   .img {
     width: 250px;
     height: auto;
   }
   .card-title {
+    color: black;
     font-size: 20px;
   }
   .button-group {
     size: xs;
   }
+  .crop {
+    height: 20px;
+    width: 30px;
+    overflow: hidden;
+  }
+  .crop img {
+    height: auto;
+    width: 30px;
+  }
 }
+
+.rm {
+  display: grid;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+.crop {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+.crop img {
+  height: auto;
+  width: 400px;
+} */
