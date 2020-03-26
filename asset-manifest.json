@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d8f81f7.chunk.css",
-    "main.js": "/static/js/main.61e4d4cc.chunk.js",
-    "main.js.map": "/static/js/main.61e4d4cc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.736723a6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.736723a6.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.d69e8191.chunk.js": "/static/js/2.d69e8191.chunk.js",
-    "static/js/2.d69e8191.chunk.js.map": "/static/js/2.d69e8191.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.df6dc5c43181421a98ad125a26f5c18f.js": "/precache-manifest.df6dc5c43181421a98ad125a26f5c18f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.2d8f81f7.chunk.css.map": "/static/css/main.2d8f81f7.chunk.css.map",
-    "static/js/2.d69e8191.chunk.js.LICENSE.txt": "/static/js/2.d69e8191.chunk.js.LICENSE.txt",
-    "static/media/GatherUp.png": "/static/media/GatherUp.f4b16b4b.png",
-    "static/media/GroupLoop1.png": "/static/media/GroupLoop1.415dc8e6.png",
-    "static/media/RickandMorty.png": "/static/media/RickandMorty.a96c37ea.png",
-    "static/media/nerd-trivia.png": "/static/media/nerd-trivia.c592f214.png"
+    "main.css": "/react-portfolio/static/css/main.2d8f81f7.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.a0b98906.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a0b98906.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.025852de.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.025852de.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/react-portfolio/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.d69e8191.chunk.js": "/react-portfolio/static/js/2.d69e8191.chunk.js",
+    "static/js/2.d69e8191.chunk.js.map": "/react-portfolio/static/js/2.d69e8191.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.0876f881f84dc2b2beb143ef94cfd045.js": "/react-portfolio/precache-manifest.0876f881f84dc2b2beb143ef94cfd045.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/react-portfolio/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.2d8f81f7.chunk.css.map": "/react-portfolio/static/css/main.2d8f81f7.chunk.css.map",
+    "static/js/2.d69e8191.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d69e8191.chunk.js.LICENSE.txt",
+    "static/media/GatherUp.png": "/react-portfolio/static/media/GatherUp.f4b16b4b.png",
+    "static/media/GroupLoop1.png": "/react-portfolio/static/media/GroupLoop1.415dc8e6.png",
+    "static/media/RickandMorty.png": "/react-portfolio/static/media/RickandMorty.a96c37ea.png",
+    "static/media/nerd-trivia.png": "/react-portfolio/static/media/nerd-trivia.c592f214.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.736723a6.js",
+    "static/js/runtime-main.025852de.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.d69e8191.chunk.js",
     "static/css/main.2d8f81f7.chunk.css",
-    "static/js/main.61e4d4cc.chunk.js"
+    "static/js/main.a0b98906.chunk.js"
   ]
 }
