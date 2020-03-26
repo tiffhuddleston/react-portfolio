@@ -31,6 +31,14 @@ header {
   }
 }
 
+@media (min-width: 1400px) {
+  img {
+    width: auto;
+    height: 700px;
+    max-height: 700px;
+  }
+}
+
 .nav-bar {
   background-color: var(--black);
   z-index: 100;
