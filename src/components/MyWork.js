@@ -175,25 +175,3 @@ function MyWork() {
 }
 
 export default MyWork;
-
-{
-  /* <section id="mywork">
-  <header className="work">
-    <h1>My Work</h1>
-  </header>
-  <ul className="gallery">
-    <li className="crop">
-      <img className="rm" src={rickAndMorty} />
-    </li>
-    <li className="crop">
-      <img className="rm" src={groupLoop} />
-    </li>
-    <li className="crop">
-      <img className="rm" src={gatherUp} />
-    </li>
-    <li className="crop">
-      <img className="rm" src={nerdTrivia} />
-    </li>
-  </ul>
-</section>; */
-}

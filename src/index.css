@@ -12,7 +12,6 @@
   margin: 0px;
 }
 html {
-  /* box-sizing: border-box; */
   scroll-behavior: smooth;
 }
 
@@ -43,14 +42,6 @@ header {
   justify-content: flex-start;
 }
 
-/* .topic {
-  font-size: 30px;
-  display: inline-block;
-  margin: 0 20px;
-  color: var(--white);
-  text-decoration: none;
-} */
-
 a {
   color: var(--white);
   text-decoration: none;
@@ -65,8 +56,6 @@ section {
   width: 100vw;
   min-height: 100vh;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 #home {
@@ -95,118 +84,8 @@ section {
   justify-content: left;
 }
 
-/* .skills-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  grid-column-gap: 50px;
-} */
-
 svg {
   padding: 5px;
   margin: 5px;
   text-align: center;
 }
-
-/* .card {
-  width: 55vw;
-  height: 35vh;
-  display: flex;
-  flex-grow: 1;
-  .crop {
-    height: 20px;
-    width: 30px;
-    overflow: hidden;
-  }
-  .crop img {
-    height: auto;
-    width: 30px;
-  }
-} */
-
-/* .crop {
-  height: 20px;
-  width: 30px;
-  overflow: hidden;
-}
-.crop img {
-  height: auto;
-  width: 30px;
-} */
-
-/* @media (min-width: 600px) {
-  button + button,
-  input + button {
-    margin-left: 1rem;
-  }
-  .gallery {
-    column-count: 1;
-  }
-  .head {
-    font-size: 1rem;
-  }
-  .crop {
-    height: 20px;
-    width: 30px;
-    overflow: hidden;
-  }
-  .crop img {
-    height: auto;
-    width: 30px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .gallery {
-    column-count: 2;
-  }
-  .carousel {
-    width: 400px;
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1400px) {
-  .gallery {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 800px) {
-  .img {
-    width: 250px;
-    height: auto;
-  }
-  .card-title {
-    color: black;
-    font-size: 20px;
-  }
-  .button-group {
-    size: xs;
-  }
-  .crop {
-    height: 20px;
-    width: 30px;
-    overflow: hidden;
-  }
-  .crop img {
-    height: auto;
-    width: 30px;
-  }
-}
-
-.rm {
-  display: grid;
-  width: 150px;
-  height: 150px;
-  padding: 20px;
-}
-.crop {
-  height: 300px;
-  width: 400px;
-  overflow: hidden;
-}
-.crop img {
-  height: auto;
-  width: 400px;
-} */
