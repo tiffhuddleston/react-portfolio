@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Carousel, Card, Button, ButtonGroup, Modal } from 'react-bootstrap';
-import rickAndMorty from '../images/RickandMorty.png';
+import rickAndMorty from '../images/RickandMorty2.png';
 import gatherUp from '../images/GatherUp.png';
 import nerdTrivia from '../images/nerd-trivia.png';
-import groupLoop from '../images/GroupLoop1.png';
+import groupLoop from '../images/GroupLoop2.png';
 
 function MyWork() {
   const [open1, setOpen1] = useState(false);
@@ -16,7 +16,7 @@ function MyWork() {
       <section id="mywork">
         <header className="work">
           <h1>My Work</h1>
-          <p>Click for more info</p>
+          <p>Click on image for more info</p>
         </header>
         <Carousel className="carousel">
           <Carousel.Item>
@@ -167,7 +167,7 @@ function MyWork() {
           </Carousel.Item>
         </Carousel>
         <footer>
-          <p>Click for more info</p>
+          <p>Click on image for more info</p>
         </footer>
       </section>
     </>
