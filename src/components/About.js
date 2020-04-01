@@ -36,7 +36,7 @@ function About() {
           </h5>
           <br />
           <h4>
-            As a human- I am a horsewoman, a reader, a writer, a traveller, an
+            As a human, I am a horsewoman, a reader, a writer, a traveller, an
             excellent friend, a voice of reason, a lazy laundress, and a
             mediocre cook.
           </h4>
@@ -49,9 +49,9 @@ function About() {
             </Modal.Header>
             <Modal.Body>
               <ul>
-                <li>Phone Number: (931)510-5866</li>
-                <li>Email: tiffhuddleston@gmail.com</li>
-                <li>
+                <p>Phone Number: (931)510-5866</p>
+                <p>Email: tiffhuddleston@gmail.com</p>
+                <p>
                   Click Here to Visit&nbsp;
                   <a
                     href="https://www.linkedin.com/in/tiffhuddleston/"
@@ -59,7 +59,7 @@ function About() {
                   >
                     LinkedIn
                   </a>
-                </li>
+                </p>
               </ul>
             </Modal.Body>
           </Modal>
