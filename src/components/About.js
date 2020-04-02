@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Jumbotron, Button, Modal } from 'react-bootstrap';
-import Pdf from '../documents/SoftwareResume.pdf';
 
 function About() {
   const [show, setShow] = useState(false);
@@ -56,6 +55,7 @@ function About() {
                   <a
                     href="https://www.linkedin.com/in/tiffhuddleston/"
                     target="_blank"
+                    style={{ color: 'teal' }}
                   >
                     LinkedIn
                   </a>
@@ -63,7 +63,11 @@ function About() {
               </ul>
             </Modal.Body>
           </Modal>
-          <Button variant="info" href={Pdf} target="_blank">
+          <Button
+            variant="info"
+            href="https://tiffhuddleston.github.io/resume/"
+            target="_blank"
+          >
             See My Resume
           </Button>
         </Jumbotron>
