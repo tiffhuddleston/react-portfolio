@@ -40,9 +40,9 @@ function About() {
             excellent friend, a voice of reason, a lazy laundress, and a
             mediocre cook.
           </h4>
-          <Button variant="info" onClick={handleShow}>
+          <Button className="about-button" variant="info" onClick={handleShow}>
             Contact Me
-          </Button>
+          </Button>{' '}
           <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Contact Me</Modal.Title>
@@ -64,7 +64,7 @@ function About() {
               </ul>
             </Modal.Body>
           </Modal>
-          <Button variant="info">
+          <Button variant="info" className="about-button">
             <a href={resume} target="_blank" style={{ color: 'white' }}>
               See My Resume
             </a>

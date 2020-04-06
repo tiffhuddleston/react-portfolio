@@ -108,3 +108,8 @@ svg {
   border: 1px solid var(--secondary-light);
   background-color: var(--secondary-light);
 }
+
+.about-button {
+  display: flex;
+  align-content: space-around;
+}
